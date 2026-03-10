@@ -1,3 +1,5 @@
+package ex1001;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -13,7 +15,8 @@ public class Main {
         int X = A + B;
 
         System.out.println("X = " + X);
-
+        
+        leitor.close();
     }
  
 }
