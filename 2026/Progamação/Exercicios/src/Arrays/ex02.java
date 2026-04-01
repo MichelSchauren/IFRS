@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ex02 {
@@ -10,6 +11,7 @@ public class ex02 {
 		array. Finalmente, imprima a soma dos valores na tela.
 		 */
 		Scanner sc = new Scanner(System.in);
+		sc.useLocale(Locale.US);
 
 		double[] numeros = new double[5];
 		double soma = 0;
