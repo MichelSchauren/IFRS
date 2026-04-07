@@ -21,30 +21,28 @@ public class Main {
 			
 			Arrays.fill(digits, 0);
 			
-			for (int j = 1; j < b; j*=10) {
+			for (int j = 1; j <= b; j*=10) {
 				int aj = a/j; int bj = b/j;
 				int d = (bj-aj)/10;
 				int r = (bj-aj)%10;
 				int ah = (a - (a/(j*10))*j*10) / j;
-				System.out.println(ah);
 				
 				for (int i = 0; i < 10; i++) {
 					digits[i] += d*j;
 				}
 				
 				for (int i = ah; i <= ah+r; i++) {
-					/*switch (i) {
-						case 0:
-							break;
-						case (ah):
-							digits[i] += j - a%j;
-							break;
-						case (ah+r):
-							digits[i] += b%j +1;
-							break;
-						default:
-							digits[i] += j;
-					}*/
+					if (i == 0) { 
+						continue;
+					} else if (i == ah && i == ah+r) {
+						digits[i%10] += b%j - a%j +1;
+					} else if (i == ah) {
+						digits[i%10] += j - a%j;
+					} else if (i == ah+r) {
+						digits[i%10] += b%j +1;
+					} else {
+						digits[i%10] += j;
+					}
 				}
 			}
 			
