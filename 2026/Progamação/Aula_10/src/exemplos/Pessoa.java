@@ -6,6 +6,14 @@ public class Pessoa {
 	public String nome = "Jane";
 	public String sobrenome = "Doe";
 	public int idade = 0;
+	public Endereco endereco;
+	
+	// Método construtor
+	/*public Pessoa(String nome, String sobrenome, int idade) {
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.idade = idade;
+	}*/
 	
 	// Métodos
 	// Comportamento da classe (ação)
