@@ -22,6 +22,6 @@ public class Main {
 		System.out.print("Comprimento quadra: ");
 		String cquadra = sc.nextLine();
 		
-		Bola quadra = new Quadra();
+		//Bola quadra = new Quadra();
 	}
 }
