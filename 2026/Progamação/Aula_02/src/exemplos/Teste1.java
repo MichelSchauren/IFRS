@@ -15,6 +15,8 @@ public class Teste1 {
 		System.out.println("Quantos tifo deu? ");
 		int tifos = leitor.nextInt();		
 		System.out.println(tifos + " tifo deu!");
+		
+		leitor.close();
 	}
 
 }

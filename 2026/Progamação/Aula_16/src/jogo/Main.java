@@ -23,5 +23,9 @@ public class Main {
 		String cquadra = sc.nextLine();
 		
 		//Bola quadra = new Quadra();
+		
+		System.out.println(lquadra + cquadra);
+		
+		sc.close();
 	}
 }

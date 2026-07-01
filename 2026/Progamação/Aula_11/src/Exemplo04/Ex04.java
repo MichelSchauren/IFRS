@@ -24,5 +24,7 @@ public class Ex04 {
 		System.out.println(c.getModelo());
 		System.out.println(c.getPotencia());
 		System.out.println(c.getValor());
+		
+		sc.close();
 	}
 }

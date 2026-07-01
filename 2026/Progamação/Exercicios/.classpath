@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="conceitos_OO_4"/>
 	<classpathentry kind="src" path="privado_get_set"/>
 	<classpathentry kind="src" path="privado_get_set3"/>
+	<classpathentry kind="src" path="Exercicios-Construtores"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

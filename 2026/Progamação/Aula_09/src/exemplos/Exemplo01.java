@@ -10,10 +10,10 @@ public class Exemplo01 {
 		c1.ligado = true;
 		
 		Computador c2 = new Computador();
-		c1.ram = 32;
-		c1.placaMae = "Gigabyte";
-		c1.processador = "Intel i5";
-		c1.ligado = false;
+		c2.ram = 32;
+		c2.placaMae = "Gigabyte";
+		c2.processador = "Intel i5";
+		c2.ligado = false;
 		
 		System.out.println(c1.ram);
 		System.out.println(c1.placaMae);

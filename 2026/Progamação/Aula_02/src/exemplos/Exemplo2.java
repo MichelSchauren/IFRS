@@ -1,7 +1,5 @@
 package exemplos;
 
-import java.util.Scanner;
-
 public class Exemplo2 {
 	
 	public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class Exemplo2 {
 		
 		// 16 bits
 		short s1 = 200;
-		System.out.println(b1);
+		System.out.println(s1);
 		
 		// 32 bits
 		int i1 = 10;

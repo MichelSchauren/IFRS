@@ -4,7 +4,7 @@ public class Ex1 {
 
 	public static void main(String[] args) {
 		
-		Carro c = new Carro();
+		//Carro c = new Carro();
 		
 		//aaaaa
 	}

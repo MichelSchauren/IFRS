@@ -20,6 +20,7 @@ public class Ex3 {
 		System.out.println("Nome: " + p.getNome());
 		System.out.println("Idade: " + String.valueOf(p.getIdade()));
 		
+		sc.close();
 	}
 
 }

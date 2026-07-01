@@ -19,6 +19,8 @@ public class Exemplo1 {
 		
 		System.out.print("Olá");
 		System.out.println(" Mundo");
-		System.out.println();
+		System.out.println(nome);
+		
+		leitor.close();
 	}
 }
