@@ -7,7 +7,6 @@ public class Campus {
 	
 	
 	public Campus(String nome, String endereco, Diretor diretor) {
-		super();
 		this.nome = nome;
 		this.endereco = endereco;
 		this.diretor = diretor;
